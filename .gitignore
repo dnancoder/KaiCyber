@@ -16,8 +16,8 @@ nupkg/
 .idea/
 
 # vsVisual Studio
-# .vs/
-# KaiCyberScanner/.vs/**/*.*/
+.vs/
+kaicyberscanner/.vs/**/*.*/
 
 # Fleet
 .fleet/
