@@ -13,7 +13,7 @@
 ## Steps to Execute the Web API
 
 1. **Navigate to the Repository Path**
-   - Git repo base path: `[Base Path]\KaiCyberScanner\KaiCyberScanner`
+   - Git repo base path: `[local git path]\KaiCyberScanner\KaiCyberScanner`
 
 2. **Open Terminal in VS Code**
    - Open VS Code.
@@ -23,7 +23,7 @@
 3. **Change Directory**
    - Use the following command to change the directory to `KaiCyberScanner\KaiCyberScanner`:
      ```sh
-     cd C:\Git\KaiCyber\KaiCyberScanner\KaiCyberScanner
+     cd [local git path]\KaiCyber\KaiCyberScanner\KaiCyberScanner
      ```
 
 4. **Build and Run the Web API**
@@ -37,7 +37,7 @@
    - After the .NET service runs successfully, it will show a success log in the terminal.
 
 6. **Send HTTP Requests**
-   - Open the file `KaiCyberScanner.http` in VS Code.
+   - Open the file `[local git path]\KaiCyber\KaiCyberScanner\KaiCyberScanner\KaiCyberScanner.http` in VS Code.
    - You can now send requests by clicking the appropriate buttons.
-   - Refer to the image file `.\Documentation\HttpRequest-Execute-Guide.jpg` to see where to click to initiate Scan and Query requests.
+   - Refer to the image file `[local git path]\KaiCyber\KaiCyberScanner\KaiCyberScanner\Documentation\HttpRequest-Execute-Guide.jpg` to see where to click to initiate Scan and Query requests.
    - The results will be displayed in the right pane of VS Code.
