@@ -23,12 +23,6 @@ namespace KaiCyberScanner
                 options.SerializerSettings.DateFormatString = "yyyy-MM-ddTHH:mm:ssZ";
             });
 
-            //.AddNewtonsoftJson(options =>
-            //{
-            //    // Configure Newtonsoft.Json settings here if needed
-            //    options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
-            //};
-
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
             builder.Services.AddSingleton<IHttpClientHelper, HttpClientHelper>();
