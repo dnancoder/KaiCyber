@@ -1,0 +1,212 @@
+[
+    {
+        "scanResults": {
+            "scan_id": "scan_789ghi123",
+            "timestamp": "2025-01-29T11:15:00Z",
+            "scan_status": "completed",
+            "resource_type": "container",
+            "resource_name": "cache-service:1.0.0",
+            "vulnerabilities": [
+            {
+                "id": "CVE-2024-3344",
+                "severity": "HIGH",
+                "cvss": 7.8,
+                "status": "active",
+                "package_name": "redis",
+                "current_version": "6.2.5",
+                "fixed_version": "6.2.6",
+                "description": "Memory corruption in Redis key handling",
+                "published_date": "2024-01-24T00:00:00Z",
+                "risk_factors": [
+                "Memory Corruption",
+                "Denial of Service"
+                ]
+            },
+            {
+                "id": "CVE-2024-3345",
+                "severity": "LOW",
+                "cvss": 3.5,
+                "status": "fixed",
+                "package_name": "busybox",
+                "current_version": "1.33.0",
+                "fixed_version": "1.33.1",
+                "description": "Privilege escalation in BusyBox",
+                "published_date": "2024-01-25T00:00:00Z",
+                "risk_factors": [
+                "Privilege Escalation"
+                ]
+            },
+            {
+                "id": "CVE-2024-3346",
+                "severity": "MEDIUM",
+                "cvss": 5.5,
+                "status": "active",
+                "package_name": "systemd",
+                "current_version": "247.3",
+                "fixed_version": "247.4",
+                "description": "Resource exhaustion in systemd service manager",
+                "published_date": "2024-01-26T00:00:00Z",
+                "risk_factors": [
+                "Resource Exhaustion",
+                "Denial of Service"
+                ]
+            }
+            ],
+            "summary": {
+            "total_vulnerabilities": 3,
+            "severity_counts": {
+                "CRITICAL": 0,
+                "HIGH": 1,
+                "MEDIUM": 1,
+                "LOW": 1
+            },
+            "fixable_count": 3,
+            "compliant": false
+            }
+        }
+    },
+    {
+        "scanResults": {
+          "scanId": "VULN_scan_789ghi",
+          "scanTime": "2025-01-29T10:30:00Z",
+          "status": "COMPLETED",
+          "resourceDetails": {
+            "type": "CONTAINER_IMAGE",
+            "name": "data-analytics:3.0.0",
+            "registry": "ecr.aws",
+            "architecture": "arm64"
+          },
+          "findings": [
+            {
+              "id": "VULN-2024-104",
+              "type": "VULNERABILITY",
+              "cveId": "CVE-2024-3333",
+              "severity": "CRITICAL",
+              "score": 9.1,
+              "package": {
+                "name": "python3",
+                "version": "3.9.0",
+                "path": "/usr/bin/python3",
+                "fixedVersion": "3.9.1"
+              },
+              "description": "Remote code execution in Python stdlib",
+              "remediation": "Update to Python 3.9.1",
+              "firstDetected": "2025-01-26T00:00:00Z",
+              "status": "OPEN",
+              "exploitability": "FUNCTIONAL",
+              "threatContext": {
+                "inTheWild": true,
+                "hasExploit": true,
+                "exploitMaturity": "HIGH"
+              }
+            },
+            {
+              "id": "VULN-2024-105",
+              "type": "VULNERABILITY",
+              "cveId": "CVE-2024-3334",
+              "severity": "LOW",
+              "score": 3.2,
+              "package": {
+                "name": "numpy",
+                "version": "1.21.0",
+                "path": "/usr/local/lib/python3.9/site-packages/numpy",
+                "fixedVersion": "1.21.1"
+              },
+              "description": "Denial of service in NumPy array processing",
+              "remediation": "Upgrade NumPy to 1.21.1",
+              "firstDetected": "2025-01-27T00:00:00Z",
+              "status": "OPEN",
+              "exploitability": "UNPROVEN",
+              "threatContext": {
+                "inTheWild": false,
+                "hasExploit": false,
+                "exploitMaturity": "LOW"
+              }
+            }
+          ],
+          "summary": {
+            "totalIssues": 2,
+            "severityBreakdown": {
+              "CRITICAL": 1,
+              "HIGH": 0,
+              "MEDIUM": 0,
+              "LOW": 1
+            },
+            "fixableIssues": 2,
+            "securityScore": 58
+          }
+        }
+    },
+    {
+        "scanResults": {
+          "scanId": "VULN_scan_012jkl",
+          "scanTime": "2025-01-29T11:45:00Z",
+          "status": "COMPLETED",
+          "resourceDetails": {
+            "type": "CONTAINER_IMAGE",
+            "name": "message-queue:1.5.0",
+            "registry": "acr.azure.io",
+            "architecture": "amd64"
+          },
+          "findings": [
+            {
+              "id": "VULN-2024-106",
+              "type": "VULNERABILITY",
+              "cveId": "CVE-2024-4444",
+              "severity": "HIGH",
+              "score": 7.8,
+              "package": {
+                "name": "rabbitmq-server",
+                "version": "3.9.0",
+                "path": "/opt/rabbitmq",
+                "fixedVersion": "3.9.1"
+              },
+              "description": "Privilege escalation in RabbitMQ",
+              "remediation": "Update RabbitMQ to 3.9.1",
+              "firstDetected": "2025-01-25T00:00:00Z",
+              "status": "OPEN",
+              "exploitability": "PROOF_OF_CONCEPT",
+              "threatContext": {
+                "inTheWild": false,
+                "hasExploit": true,
+                "exploitMaturity": "MEDIUM"
+              }
+            },
+            {
+              "id": "VULN-2024-107",
+              "type": "VULNERABILITY",
+              "cveId": "CVE-2024-4445",
+              "severity": "MEDIUM",
+              "score": 5.9,
+              "package": {
+                "name": "erlang",
+                "version": "24.0",
+                "path": "/usr/lib/erlang",
+                "fixedVersion": "24.1"
+              },
+              "description": "Memory leak in Erlang runtime",
+              "remediation": "Upgrade Erlang to 24.1",
+              "firstDetected": "2025-01-26T00:00:00Z",
+              "status": "OPEN",
+              "exploitability": "UNPROVEN",
+              "threatContext": {
+                "inTheWild": false,
+                "hasExploit": false,
+                "exploitMaturity": "LOW"
+              }
+            }
+          ],
+          "summary": {
+            "totalIssues": 2,
+            "severityBreakdown": {
+              "CRITICAL": 0,
+              "HIGH": 1,
+              "MEDIUM": 1,
+              "LOW": 0
+            },
+            "fixableIssues": 2,
+            "securityScore": 75
+          }
+        }
+    }
+]

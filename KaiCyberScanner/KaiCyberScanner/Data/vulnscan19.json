@@ -1,0 +1,226 @@
+[
+  {
+    "scanResults": {
+      "scan_id": "VULN_scan_345mno",
+      "timestamp": "2025-01-29T13:00:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "ml-inference:2.0.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-5555",
+          "severity": "HIGH",
+          "cvss": 8.5,
+          "status": "active",
+          "package_name": "tensorflow",
+          "current_version": "2.7.0",
+          "fixed_version": "2.7.1",
+          "description": "Remote code execution in TensorFlow model loading",
+          "published_date": "2025-01-24T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-5555",
+          "risk_factors": [
+            "Remote Code Execution",
+            "High CVSS Score",
+            "Public Exploit Available",
+            "Exploit in Wild"
+          ]
+        },
+        {
+          "id": "CVE-2024-5556",
+          "severity": "MEDIUM",
+          "cvss": 6.7,
+          "status": "active",
+          "package_name": "scikit-learn",
+          "current_version": "1.0.0",
+          "fixed_version": "1.0.1",
+          "description": "Memory corruption in scikit-learn",
+          "published_date": "2025-01-25T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-5556",
+          "risk_factors": [
+            "Memory Corruption",
+            "Medium CVSS Score"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 2,
+        "severity_counts": {
+          "CRITICAL": 0,
+          "HIGH": 1,
+          "MEDIUM": 1,
+          "LOW": 0
+        },
+        "fixable_count": 2,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.29",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  },
+  {
+    "scanResults": {
+      "scan_id": "VULN_scan_456pqr",
+      "timestamp": "2025-01-29T14:15:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "web-platform:3.2.1",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-7701",
+          "severity": "CRITICAL",
+          "cvss": 9.8,
+          "status": "active",
+          "package_name": "apache-struts2",
+          "current_version": "2.5.30",
+          "fixed_version": "2.5.31",
+          "description": "Remote code execution vulnerability in Apache Struts 2 OGNL expression handling",
+          "published_date": "2025-01-28T12:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7701",
+          "risk_factors": [
+            "Remote Code Execution",
+            "Critical CVSS Score",
+            "Public Exploit Available",
+            "Exploit in Wild"
+          ]
+        },
+        {
+          "id": "CVE-2024-7702",
+          "severity": "HIGH",
+          "cvss": 8.8,
+          "status": "active",
+          "package_name": "mysql-server",
+          "current_version": "8.0.31",
+          "fixed_version": "8.0.32",
+          "description": "SQL injection vulnerability in MySQL stored procedure handling",
+          "published_date": "2025-01-27T15:30:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7702",
+          "risk_factors": [
+            "SQL Injection",
+            "High CVSS Score",
+            "Proof of Concept Exploit Available"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 2,
+        "severity_counts": {
+          "CRITICAL": 1,
+          "HIGH": 1,
+          "MEDIUM": 0,
+          "LOW": 0
+        },
+        "fixable_count": 2,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.29",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  },
+  {
+    "scanResults": {
+      "scan_id": "VULN_scan_789stu",
+      "timestamp": "2025-01-29T15:30:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "auth-service:2.1.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-8801",
+          "severity": "CRITICAL",
+          "cvss": 9.6,
+          "status": "active",
+          "package_name": "spring-security",
+          "current_version": "5.5.0",
+          "fixed_version": "5.5.1",
+          "description": "Authentication bypass vulnerability in Spring Security",
+          "published_date": "2025-01-28T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-8801",
+          "risk_factors": [
+            "Authentication Bypass",
+            "Critical CVSS Score",
+            "Proof of Concept Exploit Available",
+            "Exploit in Wild"
+          ]
+        },
+        {
+          "id": "CVE-2024-8802",
+          "severity": "MEDIUM",
+          "cvss": 5.9,
+          "status": "active",
+          "package_name": "log4j",
+          "current_version": "2.14.0",
+          "fixed_version": "2.14.1",
+          "description": "Information disclosure in Log4j logging",
+          "published_date": "2025-01-27T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-8802",
+          "risk_factors": [
+            "Information Disclosure",
+            "Medium CVSS Score"
+          ]
+        },
+        {
+          "id": "CVE-2024-8803",
+          "severity": "LOW",
+          "cvss": 3.2,
+          "status": "active",
+          "package_name": "nginx",
+          "current_version": "1.20.1",
+          "fixed_version": "1.20.2",
+          "description": "Information disclosure in NGINX error logs",
+          "published_date": "2025-01-26T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-8803",
+          "risk_factors": [
+            "Information Disclosure",
+            "Low CVSS Score"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 3,
+        "severity_counts": {
+          "CRITICAL": 1,
+          "HIGH": 0,
+          "MEDIUM": 1,
+          "LOW": 1
+        },
+        "fixable_count": 3,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.29",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  }
+]

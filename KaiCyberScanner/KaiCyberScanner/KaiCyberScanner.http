@@ -1,0 +1,30 @@
+﻿@KaiCyberScanner_HostAddress = http://localhost:5083
+
+GET {{KaiCyberScanner_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{KaiCyberScanner_HostAddress}}/api/Scan/PostScan
+Accept: application/json
+Content-Type: application/json
+
+{
+    "repo": "https://github.com/velancio/vulnerability_scans",
+    "files": ["vulnscan1011.json", "vulnscan1213.json"]
+}
+
+###
+
+POST {{KaiCyberScanner_HostAddress}}/api/Query/PostQuery
+Accept: application/json
+Content-Type: application/json
+
+{
+    "filters": {
+        "severity": "HIGH"
+    }
+}
+
+
+###

@@ -1,0 +1,214 @@
+[
+  {
+    "scanResults": {
+      "scan_id": "scan_123456789",
+      "timestamp": "2025-01-28T10:30:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "app-container:latest",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-1234",
+          "severity": "HIGH",
+          "cvss": 8.5,
+          "status": "fixed",
+          "package_name": "openssl",
+          "current_version": "1.1.1t-r0",
+          "fixed_version": "1.1.1u-r0",
+          "description": "Buffer overflow vulnerability in OpenSSL",
+          "published_date": "2024-01-15T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-1234",
+          "risk_factors": [
+            "Remote Code Execution",
+            "High CVSS Score",
+            "Public Exploit Available"
+          ]
+        },
+        {
+          "id": "CVE-2024-5678",
+          "severity": "MEDIUM",
+          "cvss": 5.5,
+          "status": "active",
+          "package_name": "python3",
+          "current_version": "3.9.16-r0",
+          "fixed_version": "3.9.17-r0",
+          "description": "Denial of Service vulnerability in Python XML processing",
+          "published_date": "2024-01-20T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-5678",
+          "risk_factors": [
+            "Denial of Service",
+            "Commonly Used Component"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 2,
+        "severity_counts": {
+          "CRITICAL": 0,
+          "HIGH": 1,
+          "MEDIUM": 1,
+          "LOW": 0
+        },
+        "fixable_count": 1,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.28",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  },
+  {
+    "scanResults": {
+      "scanId": "scan_789012345",
+      "scanTime": "2025-01-29T09:15:00Z",
+      "status": "COMPLETED",
+      "resourceDetails": {
+        "type": "CONTAINER_IMAGE",
+        "name": "production/webapp:1.2.3",
+        "registry": "acr.azure.io",
+        "architecture": "amd64"
+      },
+      "findings": [
+        {
+          "id": "VULN-2024-001",
+          "type": "VULNERABILITY",
+          "cveId": "CVE-2024-9876",
+          "severity": "CRITICAL",
+          "score": 9.8,
+          "package": {
+            "name": "node",
+            "version": "16.13.1",
+            "path": "/usr/local/lib/node",
+            "fixedVersion": "16.13.2"
+          },
+          "description": "Remote code execution vulnerability in Node.js",
+          "remediation": "Upgrade to node version 16.13.2 or later",
+          "firstDetected": "2025-01-28T00:00:00Z",
+          "status": "OPEN",
+          "exploitability": "PROOF_OF_CONCEPT",
+          "threatContext": {
+            "inTheWild": true,
+            "hasExploit": true,
+            "exploitMaturity": "HIGH"
+          }
+        },
+        {
+          "id": "VULN-2024-002",
+          "type": "VULNERABILITY",
+          "cveId": "CVE-2024-5432",
+          "severity": "HIGH",
+          "score": 7.5,
+          "package": {
+            "name": "nginx",
+            "version": "1.20.1",
+            "path": "/usr/sbin/nginx",
+            "fixedVersion": "1.20.2"
+          },
+          "description": "Information disclosure vulnerability in nginx server",
+          "remediation": "Update nginx to version 1.20.2",
+          "firstDetected": "2025-01-29T00:00:00Z",
+          "status": "OPEN",
+          "exploitability": "UNPROVEN",
+          "threatContext": {
+            "inTheWild": false,
+            "hasExploit": false,
+            "exploitMaturity": "LOW"
+          }
+        }
+      ],
+      "summary": {
+        "totalIssues": 2,
+        "severityBreakdown": {
+          "CRITICAL": 1,
+          "HIGH": 1,
+          "MEDIUM": 0,
+          "LOW": 0
+        },
+        "fixableIssues": 2,
+        "securityScore": 65
+      },
+      "metadata": {
+        "wizVersion": "2.5.0",
+        "securityDefinitions": "2025.01.29",
+        "scanConfiguration": {
+          "enabledChecks": [
+            "VULNERABILITIES",
+            "MISCONFIGURATIONS",
+            "SECRETS"
+          ],
+          "excludedPaths": [
+            "/var/log/*",
+            "/tmp/*"
+          ]
+        },
+        "complianceFrameworks": [
+          "SOC2",
+          "ISO27001",
+          "PCI"
+        ]
+      }
+    }
+  },
+  {
+    "scanResults": {
+      "scan_id": "scan_abcdef123",
+      "timestamp": "2025-01-29T08:15:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "frontend-app:1.2.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-2468",
+          "severity": "CRITICAL",
+          "cvss": 9.8,
+          "status": "active",
+          "package_name": "nginx",
+          "current_version": "1.18.0",
+          "fixed_version": "1.18.1",
+          "description": "Remote code execution vulnerability in nginx reverse proxy",
+          "published_date": "2024-01-10T00:00:00Z",
+          "risk_factors": [
+            "Remote Code Execution",
+            "Critical CVSS Score",
+            "Public Exploit Available"
+          ]
+        },
+        {
+          "id": "CVE-2024-3579",
+          "severity": "LOW",
+          "cvss": 3.2,
+          "status": "fixed",
+          "package_name": "curl",
+          "current_version": "7.74.0",
+          "fixed_version": "7.74.1",
+          "description": "Information disclosure in curl command line tool",
+          "published_date": "2024-01-05T00:00:00Z",
+          "risk_factors": [
+            "Information Disclosure"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 2,
+        "severity_counts": {
+          "CRITICAL": 1,
+          "HIGH": 0,
+          "MEDIUM": 0,
+          "LOW": 1
+        },
+        "fixable_count": 2,
+        "compliant": false
+      }
+    }
+  }
+]

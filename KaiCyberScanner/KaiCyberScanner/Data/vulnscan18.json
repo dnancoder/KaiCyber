@@ -1,0 +1,209 @@
+[
+  {
+    "scanResults": {
+      "scan_id": "scan_123456789",
+      "timestamp": "2025-01-28T10:30:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "app-container:latest",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-1234",
+          "severity": "HIGH",
+          "cvss": 8.5,
+          "status": "fixed",
+          "package_name": "openssl",
+          "current_version": "1.1.1t-r0",
+          "fixed_version": "1.1.1u-r0",
+          "description": "Buffer overflow vulnerability in OpenSSL",
+          "published_date": "2024-01-15T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-1234",
+          "risk_factors": [
+            "Remote Code Execution",
+            "High CVSS Score",
+            "Public Exploit Available"
+          ]
+        },
+        {
+          "id": "CVE-2024-5678",
+          "severity": "MEDIUM",
+          "cvss": 5.5,
+          "status": "active",
+          "package_name": "python3",
+          "current_version": "3.9.16-r0",
+          "fixed_version": "3.9.17-r0",
+          "description": "Denial of Service vulnerability in Python XML processing",
+          "published_date": "2024-01-20T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-5678",
+          "risk_factors": [
+            "Denial of Service",
+            "Commonly Used Component"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 2,
+        "severity_counts": {
+          "CRITICAL": 0,
+          "HIGH": 1,
+          "MEDIUM": 1,
+          "LOW": 0
+        },
+        "fixable_count": 1,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.28",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  },
+  {
+    "scanResults": {
+      "scan_id": "scan_987654321",
+      "timestamp": "2025-01-28T11:45:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "web-service:1.2.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-8901",
+          "severity": "CRITICAL",
+          "cvss": 9.8,
+          "status": "active",
+          "package_name": "nginx",
+          "current_version": "1.18.0",
+          "fixed_version": "1.18.1",
+          "description": "Remote code execution vulnerability in nginx reverse proxy",
+          "published_date": "2024-01-22T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-8901",
+          "risk_factors": [
+            "Remote Code Execution",
+            "Critical CVSS Score",
+            "Public Exploit Available",
+            "Internet Exposed"
+          ]
+        },
+        {
+          "id": "CVE-2024-8902",
+          "severity": "HIGH",
+          "cvss": 8.2,
+          "status": "fixed",
+          "package_name": "openldap",
+          "current_version": "2.4.57",
+          "fixed_version": "2.4.58",
+          "description": "Authentication bypass vulnerability in OpenLDAP",
+          "published_date": "2024-01-21T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-8902",
+          "risk_factors": [
+            "Authentication Bypass",
+            "High CVSS Score"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 2,
+        "severity_counts": {
+          "CRITICAL": 1,
+          "HIGH": 1,
+          "MEDIUM": 0,
+          "LOW": 0
+        },
+        "fixable_count": 2,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.28",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  },
+  {
+    "scanResults": {
+      "scan_id": "scan_567891234",
+      "timestamp": "2025-01-28T14:45:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "auth-service:2.3.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-6601",
+          "severity": "CRITICAL",
+          "cvss": 9.6,
+          "status": "active",
+          "package_name": "spring-security",
+          "current_version": "5.5.0",
+          "fixed_version": "5.5.1",
+          "description": "Authentication bypass vulnerability in Spring Security framework",
+          "published_date": "2024-01-24T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-6601",
+          "risk_factors": [
+            "Authentication Bypass",
+            "Critical CVSS Score",
+            "Public Exploit Available",
+            "Internet Exposed"
+          ]
+        },
+        {
+          "id": "CVE-2024-6602",
+          "severity": "HIGH",
+          "cvss": 8.4,
+          "status": "active",
+          "package_name": "jackson-databind",
+          "current_version": "2.13.0",
+          "fixed_version": "2.13.1",
+          "description": "Remote code execution in Jackson databind",
+          "published_date": "2024-01-23T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-6602",
+          "risk_factors": [
+            "Remote Code Execution",
+            "High CVSS Score",
+            "Commonly Used Component"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 2,
+        "severity_counts": {
+          "CRITICAL": 1,
+          "HIGH": 1,
+          "MEDIUM": 0,
+          "LOW": 0
+        },
+        "fixable_count": 2,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.28",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  }
+]

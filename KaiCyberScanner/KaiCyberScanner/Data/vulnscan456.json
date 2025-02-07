@@ -1,0 +1,187 @@
+[
+    {
+        "scanResults": {
+            "scan_id": "scan_456def789",
+            "timestamp": "2025-01-29T10:45:00Z",
+            "scan_status": "completed",
+            "resource_type": "container",
+            "resource_name": "database-service:3.0.1",
+            "vulnerabilities": [
+            {
+                "id": "CVE-2024-1122",
+                "severity": "CRITICAL",
+                "cvss": 9.5,
+                "status": "active",
+                "package_name": "postgresql",
+                "current_version": "13.4",
+                "fixed_version": "13.5",
+                "description": "Buffer overflow in PostgreSQL database engine",
+                "published_date": "2024-01-22T00:00:00Z",
+                "risk_factors": [
+                "Buffer Overflow",
+                "Remote Code Execution",
+                "Critical CVSS Score"
+                ]
+            },
+            {
+                "id": "CVE-2024-1123",
+                "severity": "CRITICAL",
+                "cvss": 9.1,
+                "status": "active",
+                "package_name": "openssl",
+                "current_version": "1.1.1k",
+                "fixed_version": "1.1.1l",
+                "description": "TLS authentication bypass vulnerability",
+                "published_date": "2024-01-23T00:00:00Z",
+                "risk_factors": [
+                "Authentication Bypass",
+                "Critical CVSS Score"
+                ]
+            }
+            ],
+            "summary": {
+            "total_vulnerabilities": 2,
+            "severity_counts": {
+                "CRITICAL": 2,
+                "HIGH": 0,
+                "MEDIUM": 0,
+                "LOW": 0
+            },
+            "fixable_count": 2,
+            "compliant": false
+            }
+        }
+    },
+    {
+        "scanResults": {
+            "scan_id": "scan_xyz789456",
+            "timestamp": "2025-01-29T09:30:00Z",
+            "scan_status": "completed",
+            "resource_type": "container",
+            "resource_name": "backend-api:2.1.0",
+            "vulnerabilities": [
+            {
+                "id": "CVE-2024-7890",
+                "severity": "HIGH",
+                "cvss": 8.1,
+                "status": "active",
+                "package_name": "log4j",
+                "current_version": "2.14.0",
+                "fixed_version": "2.14.1",
+                "description": "Deserialization vulnerability in log4j logging framework",
+                "published_date": "2024-01-15T00:00:00Z",
+                "risk_factors": [
+                "Deserialization",
+                "Remote Code Execution"
+                ]
+            },
+            {
+                "id": "CVE-2024-8901",
+                "severity": "MEDIUM",
+                "cvss": 5.8,
+                "status": "active",
+                "package_name": "spring-core",
+                "current_version": "5.3.15",
+                "fixed_version": "5.3.16",
+                "description": "Path traversal vulnerability in Spring Framework",
+                "published_date": "2024-01-18T00:00:00Z",
+                "risk_factors": [
+                "Path Traversal"
+                ]
+            },
+            {
+                "id": "CVE-2024-9012",
+                "severity": "MEDIUM",
+                "cvss": 6.2,
+                "status": "active",
+                "package_name": "jackson-databind",
+                "current_version": "2.13.0",
+                "fixed_version": "2.13.1",
+                "description": "XML external entity vulnerability in Jackson",
+                "published_date": "2024-01-20T00:00:00Z",
+                "risk_factors": [
+                "XXE",
+                "Information Disclosure"
+                ]
+            }
+            ],
+            "summary": {
+            "total_vulnerabilities": 3,
+            "severity_counts": {
+                "CRITICAL": 0,
+                "HIGH": 1,
+                "MEDIUM": 2,
+                "LOW": 0
+            },
+            "fixable_count": 3,
+            "compliant": false
+            }
+        }
+    },
+    {
+        "scanResults": {
+            "scan_id": "scan_321jkl654",
+            "timestamp": "2025-01-29T12:00:00Z",
+            "scan_status": "completed",
+            "resource_type": "container",
+            "resource_name": "monitoring-service:2.3.0",
+            "vulnerabilities": [
+            {
+                "id": "CVE-2024-5566",
+                "severity": "MEDIUM",
+                "cvss": 6.5,
+                "status": "active",
+                "package_name": "prometheus",
+                "current_version": "2.32.0",
+                "fixed_version": "2.32.1",
+                "description": "Information disclosure in Prometheus metrics collection",
+                "published_date": "2024-01-27T00:00:00Z",
+                "risk_factors": [
+                "Information Disclosure",
+                "Sensitive Data Exposure"
+                ]
+            },
+            {
+                "id": "CVE-2024-5567",
+                "severity": "HIGH",
+                "cvss": 8.2,
+                "status": "active",
+                "package_name": "grafana",
+                "current_version": "8.3.3",
+                "fixed_version": "8.3.4",
+                "description": "Authentication bypass in Grafana dashboards",
+                "published_date": "2024-01-28T00:00:00Z",
+                "risk_factors": [
+                "Authentication Bypass",
+                "High CVSS Score"
+                ]
+            },
+            {
+                "id": "CVE-2024-5568",
+                "severity": "LOW",
+                "cvss": 3.8,
+                "status": "fixed",
+                "package_name": "nodejs",
+                "current_version": "16.13.0",
+                "fixed_version": "16.13.1",
+                "description": "Denial of service in Node.js HTTP parser",
+                "published_date": "2024-01-29T00:00:00Z",
+                "risk_factors": [
+                "Denial of Service"
+                ]
+            }
+            ],
+            "summary": {
+            "total_vulnerabilities": 3,
+            "severity_counts": {
+                "CRITICAL": 0,
+                "HIGH": 1,
+                "MEDIUM": 1,
+                "LOW": 1
+            },
+            "fixable_count": 3,
+            "compliant": false
+            }
+        }
+    }
+]

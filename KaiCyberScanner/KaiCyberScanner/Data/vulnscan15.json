@@ -1,0 +1,242 @@
+[
+  {
+    "scanResults": {
+      "scan_id": "VULN_scan_345mno",
+      "timestamp": "2025-01-29T13:00:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "ml-inference:2.0.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-5555",
+          "severity": "HIGH",
+          "cvss": 8.5,
+          "status": "active",
+          "package_name": "tensorflow",
+          "current_version": "2.7.0",
+          "fixed_version": "2.7.1",
+          "description": "Remote code execution in TensorFlow model loading",
+          "published_date": "2025-01-24T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-5555",
+          "risk_factors": [
+            "Remote Code Execution",
+            "High CVSS Score",
+            "Public Exploit Available",
+            "Exploit in Wild"
+          ]
+        },
+        {
+          "id": "CVE-2024-5556",
+          "severity": "MEDIUM",
+          "cvss": 6.7,
+          "status": "active",
+          "package_name": "scikit-learn",
+          "current_version": "1.0.0",
+          "fixed_version": "1.0.1",
+          "description": "Memory corruption in scikit-learn",
+          "published_date": "2025-01-25T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-5556",
+          "risk_factors": [
+            "Memory Corruption",
+            "Medium CVSS Score"
+          ]
+        },
+        {
+          "id": "CVE-2024-5557",
+          "severity": "LOW",
+          "cvss": 3.5,
+          "status": "active",
+          "package_name": "pandas",
+          "current_version": "1.3.0",
+          "fixed_version": "1.3.1",
+          "description": "Information disclosure in pandas data frame handling",
+          "published_date": "2025-01-26T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-5557",
+          "risk_factors": [
+            "Information Disclosure",
+            "Low CVSS Score"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 3,
+        "severity_counts": {
+          "CRITICAL": 0,
+          "HIGH": 1,
+          "MEDIUM": 1,
+          "LOW": 1
+        },
+        "fixable_count": 3,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.29",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  },
+  {
+    "scanResults": {
+      "scan_id": "VULN_scan_456pqr",
+      "timestamp": "2025-01-29T14:15:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "payment-service:1.5.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-6001",
+          "severity": "CRITICAL",
+          "cvss": 9.8,
+          "status": "active",
+          "package_name": "spring-security",
+          "current_version": "5.5.0",
+          "fixed_version": "5.5.1",
+          "description": "Authentication bypass vulnerability in Spring Security",
+          "published_date": "2025-01-27T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-6001",
+          "risk_factors": [
+            "Authentication Bypass",
+            "Critical CVSS Score",
+            "Public Exploit Available",
+            "Exploit in Wild"
+          ]
+        },
+        {
+          "id": "CVE-2024-6002",
+          "severity": "HIGH",
+          "cvss": 8.2,
+          "status": "active",
+          "package_name": "postgresql",
+          "current_version": "13.4",
+          "fixed_version": "13.5",
+          "description": "SQL injection vulnerability in PostgreSQL",
+          "published_date": "2025-01-26T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-6002",
+          "risk_factors": [
+            "SQL Injection",
+            "High CVSS Score",
+            "Proof of Concept Exploit Available"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 2,
+        "severity_counts": {
+          "CRITICAL": 1,
+          "HIGH": 1,
+          "MEDIUM": 0,
+          "LOW": 0
+        },
+        "fixable_count": 2,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.29",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  },
+  {
+    "scanResults": {
+      "scan_id": "VULN_scan_789stu",
+      "timestamp": "2025-01-29T15:30:00Z",
+      "scan_status": "completed",
+      "resource_type": "container",
+      "resource_name": "auth-service:2.1.0",
+      "vulnerabilities": [
+        {
+          "id": "CVE-2024-7001",
+          "severity": "HIGH",
+          "cvss": 7.8,
+          "status": "active",
+          "package_name": "node",
+          "current_version": "16.13.1",
+          "fixed_version": "16.13.2",
+          "description": "Remote code execution in Node.js",
+          "published_date": "2025-01-28T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7001",
+          "risk_factors": [
+            "Remote Code Execution",
+            "High CVSS Score",
+            "Public Exploit Available"
+          ]
+        },
+        {
+          "id": "CVE-2024-7002",
+          "severity": "MEDIUM",
+          "cvss": 6.5,
+          "status": "active",
+          "package_name": "express",
+          "current_version": "4.17.1",
+          "fixed_version": "4.17.2",
+          "description": "Path traversal vulnerability in Express.js",
+          "published_date": "2025-01-27T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7002",
+          "risk_factors": [
+            "Path Traversal",
+            "Medium CVSS Score",
+            "Proof of Concept Exploit Available"
+          ]
+        },
+        {
+          "id": "CVE-2024-7003",
+          "severity": "LOW",
+          "cvss": 3.2,
+          "status": "active",
+          "package_name": "moment",
+          "current_version": "2.29.1",
+          "fixed_version": "2.29.2",
+          "description": "Regular expression denial of service in Moment.js",
+          "published_date": "2025-01-26T00:00:00Z",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7003",
+          "risk_factors": [
+            "Regular Expression Denial of Service",
+            "Low CVSS Score"
+          ]
+        }
+      ],
+      "summary": {
+        "total_vulnerabilities": 3,
+        "severity_counts": {
+          "CRITICAL": 0,
+          "HIGH": 1,
+          "MEDIUM": 1,
+          "LOW": 1
+        },
+        "fixable_count": 3,
+        "compliant": false
+      },
+      "scan_metadata": {
+        "scanner_version": "30.1.51",
+        "policies_version": "2025.1.29",
+        "scanning_rules": [
+          "vulnerability",
+          "compliance",
+          "malware"
+        ],
+        "excluded_paths": [
+          "/tmp",
+          "/var/log"
+        ]
+      }
+    }
+  }
+]

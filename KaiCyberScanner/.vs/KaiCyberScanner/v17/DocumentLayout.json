@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git\\KaiCyber\\KaiCyberScanner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\kaicyberscanner.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\kaicyberscanner.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\filterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\filterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\processor\\scanprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\processor\\scanprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\processor\\queryprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\processor\\queryprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\controllers\\querycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\controllers\\querycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\filterdaterange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\filterdaterange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\scanrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\scanrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\scanpaylodmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\scanpaylodmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\finding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\finding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\imodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\imodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\database\\idatabasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\database\\idatabasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\vulnerability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\vulnerability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\processor\\iprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\processor\\iprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|c:\\git\\kaicyber\\kaicyberscanner\\kaicyberscanner\\model\\scanresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81DB0DF0-7A9D-4D8B-B957-ED0E09A0DB37}|KaiCyberScanner\\KaiCyberScanner.csproj|solutionrelative:kaicyberscanner\\model\\scanresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilterQuery.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\FilterQuery.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\FilterQuery.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\FilterQuery.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\FilterQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:30:34.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScanPaylodMetadata.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\ScanPaylodMetadata.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\ScanPaylodMetadata.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\ScanPaylodMetadata.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\ScanPaylodMetadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:05:16.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FilterDateRange.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\FilterDateRange.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\FilterDateRange.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\FilterDateRange.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\FilterDateRange.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:44:21.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScanProcessor.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Processor\\ScanProcessor.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Processor\\ScanProcessor.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Processor\\ScanProcessor.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Processor\\ScanProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T08:21:14.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QueryController.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Controllers\\QueryController.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Controllers\\QueryController.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Controllers\\QueryController.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Controllers\\QueryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:14:22.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KaiCyberScanner.http",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\KaiCyberScanner.http",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\KaiCyberScanner.http",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\KaiCyberScanner.http",
+              "RelativeToolTip": "KaiCyberScanner\\KaiCyberScanner.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-06T08:21:21.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QueryProcessor.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Processor\\QueryProcessor.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Processor\\QueryProcessor.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Processor\\QueryProcessor.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Processor\\QueryProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:17:53.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Database\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Database\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Database\\DatabaseHelper.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Database\\DatabaseHelper.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAgwIgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T08:24:35.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScanRepo.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\ScanRepo.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\ScanRepo.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\ScanRepo.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\ScanRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:41:40.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Metadata.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\Metadata.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\Metadata.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\Metadata.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\Metadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:31:52.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Database\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Database\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Database\\DatabaseInitializer.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Database\\DatabaseInitializer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T08:22:24.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Vulnerability.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\Vulnerability.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\Vulnerability.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\Vulnerability.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\Vulnerability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:15:21.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Finding.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\Finding.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\Finding.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\Finding.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\Finding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:09:57.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IModelBase.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\IModelBase.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\IModelBase.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\IModelBase.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\IModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:41:04.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProcessor.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Processor\\IProcessor.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Processor\\IProcessor.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Processor\\IProcessor.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Processor\\IProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:42:18.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Database\\IDatabaseHelper.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Database\\IDatabaseHelper.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Database\\IDatabaseHelper.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Database\\IDatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:18:01.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScanResults.cs",
+              "DocumentMoniker": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\ScanResults.cs",
+              "RelativeDocumentMoniker": "KaiCyberScanner\\Model\\ScanResults.cs",
+              "ToolTip": "C:\\Git\\KaiCyber\\KaiCyberScanner\\KaiCyberScanner\\Model\\ScanResults.cs",
+              "RelativeToolTip": "KaiCyberScanner\\Model\\ScanResults.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:15:08.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
