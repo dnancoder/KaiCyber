@@ -13,7 +13,9 @@
 x64/**/*
 [Bb]in/**/*
 [Oo]bj/**/*
+
 .vs/
+KaiCyberScanner/.vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
